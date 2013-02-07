@@ -3,32 +3,27 @@
   <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <!--remove-project name="CyanogenMod/android_hardware_qcom_display" /-->
   <remove-project name="CyanogenMod/android_external_vim" />
   <remove-project name="CyanogenMod/android_external_nano" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="platform/cts" />
 
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
 
   <project name="bruce2728/android_kernel_htc_pyramid" path="kernel/htc/msm8660" revision="jellybean" />
+  <project name="bruce2728/android_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="master" />
 
   <project name="Evervolv/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
   <project name="Evervolv/android_device_htc_pyramid" path="device/htc/pyramid" revision="jellybean" />
-  <project name="Evervolv/android_vendor_htc" path="vendor/htc" revision="jellybean" />
 
   <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean" />
   <project name="Evervolv/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
   <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
-
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <!--
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" revision="jellybean" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="jellybean" />
+  -->
   <project name="NameLessJedi/android_packages_apps_Settings" path="packages/apps/Settings" />
-
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="NameLessJedi/android_frameworks_base" path="frameworks/base" />
-
 </manifest>
